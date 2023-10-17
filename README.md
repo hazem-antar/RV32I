@@ -1,4 +1,5 @@
-# RV32I
-Fully functional Single Cycle RV32I Processor
+# Single Cycle RV32I Processor
 
+This project implements a fully functional single-cycle RV32I (RISC-V 32-bit base integer instruction set) processor, designed with both simplicity and performance in mind.
+ 
 ![Schematic](https://github.com/hazem-antar/RV32I/blob/main/RV32I%20Schematic.jpg?raw=true)
