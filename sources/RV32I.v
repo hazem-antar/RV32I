@@ -31,7 +31,7 @@ module RV32I(
     twoXone_mux PC_Source_Mux (.OUT(pc_next), .A(pc_plus_four), .B(alu), .S(pc_sel));
     
     // Instantiate Instruction Memory (always read full word, with no write)
-    Instruction_Memory I_Memory (.Dout(inst),.RD_Addr(pc));
+    Instruction_Memory I_Memory (.Dout(inst), .RD_Addr(pc));
     
     // Instantiate Register File
     Register_File Register_File (.AddrA(inst[19:15]), .AddrB(inst[24:20]), .AddrD(inst[11:7]), .DataD(wb), .Clk(clk), 
