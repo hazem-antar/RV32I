@@ -11,7 +11,6 @@
 
 module Instruction_Memory(
     input [31:0] RD_Addr, 
-    input Clk, Reset,
     output [31:0] Dout
     );
     
@@ -30,47 +29,7 @@ module Instruction_Memory(
         memory[2] = 8'h80;
         memory[3] = 8'h3e;
         
-        // 0x00300113      addi x2 , x0,   3
-        memory[4] = 8'h13;
-        memory[5] = 8'h01;
-        memory[6] = 8'h30;
-        memory[7] = 8'h00;
-        
-        // 0x00000193      addi x3, x0, 0
-        memory[8] = 8'h93;
-        memory[9] = 8'h01;
-        memory[10] = 8'h00;
-        memory[11] = 8'h00;
-        
-        // 0x00000213      addi x4, x0, 0
-        memory[12] = 8'h13;
-        memory[13] = 8'h02;
-        memory[14] = 8'h00;
-        memory[15] = 8'h00;
-        
-        // 0x00220863      multiply_loop:  beq x4, x2, 16  
-        memory[16] = 8'h63;
-        memory[17] = 8'h08;
-        memory[18] = 8'h22;
-        memory[19] = 8'h00;
-        
-        // 0x001181b3     add x3, x3, x1
-        memory[20] = 8'hb3;
-        memory[21] = 8'h81;
-        memory[22] = 8'h11;
-        memory[23] = 8'h00;
-        
-        // 0x00120213     addi x4, x4, 1  
-        memory[24] = 8'h13;
-        memory[25] = 8'h02;
-        memory[26] = 8'h12;
-        memory[27] = 8'h00;
-        
-        // 0xff5ff36f    jal x6, multiply_loop
-        memory[28] = 8'h6f;
-        memory[29] = 8'hf3;
-        memory[30] = 8'h5f;
-        memory[31] = 8'hff;
+        // Write the rest of your code here: ..
     end
 
 endmodule
