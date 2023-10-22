@@ -23,13 +23,15 @@ module Instruction_Memory(
     
     // Initialize memory content (little Endian)
     initial begin
+        // Write your code here. Below is an example:
+        
         // 0x3e800093      addi x1 , x0,   1000
         memory[0] = 8'h93;
         memory[1] = 8'h00;
         memory[2] = 8'h80;
         memory[3] = 8'h3e;
         
-        // Write the rest of your code here ..
+        
     end
 
 endmodule
