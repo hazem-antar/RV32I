@@ -25,7 +25,11 @@ module RV32I_tb;
     end
 
     initial begin
-    
+	
+	    // Store simulation data
+    	$dumpfile("simulation_result.fsdb"); 
+        $dumpvars(0, RV32I_tb); 
+
         // Initialize clock
         clk <= 0;
         
@@ -37,8 +41,9 @@ module RV32I_tb;
         // Unset reset signal
         reset <= 0;
         
-        // Monitor some values 
-        $monitor("%h %h %h %d %d %d %d %d", core.pc, core.inst, core.pc_next, $signed(core.alu), $signed(core.Register_File.Reg[1]), $signed(core.Register_File.Reg[2]), $signed(core.Register_File.Reg[3]), $signed(core.Register_File.Reg[4]));
+    	// End Simulation
+    	#(130);
+       	$finish;
     
     end
 
