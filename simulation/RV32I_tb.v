@@ -26,10 +26,6 @@ module RV32I_tb;
 
     initial begin
 	
-	// Store simulation data
-    	$dumpfile("simulation_result.fsdb"); 
-        $dumpvars(0, RV32I_tb); 
-
         // Initialize clock
         clk <= 0;
         
@@ -41,8 +37,8 @@ module RV32I_tb;
         // Unset reset signal
         reset <= 0;
         
-    	// End Simulation
-    	#(130);
+    	// End Simulation after 200ns
+	#(200);
        	$finish;
     
     end
