@@ -26,7 +26,7 @@ module RV32I_tb;
 
     initial begin
 	
-	    // Store simulation data
+	// Store simulation data
     	$dumpfile("simulation_result.fsdb"); 
         $dumpvars(0, RV32I_tb); 
 
