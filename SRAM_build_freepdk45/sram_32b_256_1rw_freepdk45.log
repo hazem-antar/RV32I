@@ -1,0 +1,58 @@
+[2023-12-18 15:13:05.670128] |==============================================================================|
+[2023-12-18 15:13:05.677536] |=========                      OpenRAM v1.2.42                       =========|
+[2023-12-18 15:13:05.679836] |=========                                                            =========|
+[2023-12-18 15:13:05.682133] |=========               VLSI Design and Automation Lab               =========|
+[2023-12-18 15:13:05.684197] |=========        Computer Science and Engineering Department         =========|
+[2023-12-18 15:13:05.686314] |=========            University of California Santa Cruz             =========|
+[2023-12-18 15:13:05.688321] |=========                                                            =========|
+[2023-12-18 15:13:05.690371] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2023-12-18 15:13:05.692563] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2023-12-18 15:13:05.694508] |=========                See LICENSE for license info                =========|
+[2023-12-18 15:13:05.696473] |==============================================================================|
+[2023-12-18 15:13:05.699656] ** Start: 12/18/2023 15:13:05
+[2023-12-18 15:13:05.701707] Technology: freepdk45
+[2023-12-18 15:13:05.704092] Total size: 8192 bits
+[2023-12-18 15:13:05.713558] Word size: 32
+Words: 256
+Banks: 1
+[2023-12-18 15:13:05.715781] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2023-12-18 15:13:05.722118] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2023-12-18 15:13:05.727769] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2023-12-18 15:13:05.730807] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2023-12-18 15:13:05.733213] Words per row: 1
+[2023-12-18 15:13:05.735549] Output files are: 
+[2023-12-18 15:13:05.746156] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.lvs
+[2023-12-18 15:13:05.748551] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.sp
+[2023-12-18 15:13:05.753620] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.v
+[2023-12-18 15:13:05.756014] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.lib
+[2023-12-18 15:13:05.760260] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.py
+[2023-12-18 15:13:05.762713] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.html
+[2023-12-18 15:13:05.765228] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.log
+[2023-12-18 15:13:05.767663] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.lef
+[2023-12-18 15:13:05.776889] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.gds
+[2023-12-18 15:13:46.235730] ** Submodules: 40.4 seconds
+[2023-12-18 15:13:46.275861] ** Placement: 0.0 seconds
+[2023-12-18 15:46:48.495429] ** Routing: 1982.2 seconds
+[2023-12-18 15:46:48.510628] ** Verification: 0.0 seconds
+[2023-12-18 15:46:48.515004] ** SRAM creation: 2022.7 seconds
+[2023-12-18 15:46:48.517029] SP: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.sp
+[2023-12-18 15:46:48.757415] ** Spice writing: 0.2 seconds
+[2023-12-18 15:46:48.759888] DELAY: Writing stimulus...
+[2023-12-18 15:46:50.189392] ** DELAY: 1.4 seconds
+[2023-12-18 15:46:50.354245] GDS: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.gds
+[2023-12-18 15:46:50.805449] ** GDS: 0.5 seconds
+[2023-12-18 15:46:50.809735] LEF: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.lef
+[2023-12-18 15:46:50.834400] ** LEF: 0.0 seconds
+[2023-12-18 15:46:50.836688] LVS: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.lvs.sp
+[2023-12-18 15:46:51.015523] ** LVS writing: 0.2 seconds
+[2023-12-18 15:46:51.018463] LIB: Characterizing... 
+[2023-12-18 15:46:55.541038] ** Characterization: 4.5 seconds
+[2023-12-18 15:46:55.548954] Config: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.py
+[2023-12-18 15:46:55.550958] ** Config: 0.0 seconds
+[2023-12-18 15:46:55.562393] Datasheet: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.html
+[2023-12-18 15:46:55.573968] ** Datasheet: 0.0 seconds
+[2023-12-18 15:46:55.579223] Verilog: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_freepdk45/sram_32b_256_1rw_freepdk45.v
+[2023-12-18 15:46:55.586878] ** Verilog: 0.0 seconds
+[2023-12-18 15:46:55.591222] ** End: 2029.9 seconds
