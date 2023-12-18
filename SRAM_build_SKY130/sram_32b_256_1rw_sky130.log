@@ -1,0 +1,58 @@
+[2023-12-18 12:09:48.072604] |==============================================================================|
+[2023-12-18 12:09:48.076932] |=========                      OpenRAM v1.2.42                       =========|
+[2023-12-18 12:09:48.079100] |=========                                                            =========|
+[2023-12-18 12:09:48.080864] |=========               VLSI Design and Automation Lab               =========|
+[2023-12-18 12:09:48.086235] |=========        Computer Science and Engineering Department         =========|
+[2023-12-18 12:09:48.088871] |=========            University of California Santa Cruz             =========|
+[2023-12-18 12:09:48.090751] |=========                                                            =========|
+[2023-12-18 12:09:48.092533] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2023-12-18 12:09:48.094631] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2023-12-18 12:09:48.096384] |=========                See LICENSE for license info                =========|
+[2023-12-18 12:09:48.098296] |==============================================================================|
+[2023-12-18 12:09:48.110326] ** Start: 12/18/2023 12:09:48
+[2023-12-18 12:09:48.112530] Technology: sky130
+[2023-12-18 12:09:48.114521] Total size: 8192 bits
+[2023-12-18 12:09:48.116712] Word size: 32
+Words: 256
+Banks: 1
+[2023-12-18 12:09:48.118586] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2023-12-18 12:09:48.120473] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2023-12-18 12:09:48.122307] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2023-12-18 12:09:48.124274] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2023-12-18 12:09:48.126718] Words per row: 1
+[2023-12-18 12:09:48.141479] Output files are: 
+[2023-12-18 12:09:48.144847] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.lvs
+[2023-12-18 12:09:48.147953] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.sp
+[2023-12-18 12:09:48.149968] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.v
+[2023-12-18 12:09:48.152740] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.lib
+[2023-12-18 12:09:48.154695] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.py
+[2023-12-18 12:09:48.156632] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.html
+[2023-12-18 12:09:48.158378] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.log
+[2023-12-18 12:09:48.160413] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.lef
+[2023-12-18 12:09:48.174237] /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.gds
+[2023-12-18 12:13:58.049126] ** Submodules: 249.8 seconds
+[2023-12-18 12:13:58.100001] ** Placement: 0.0 seconds
+[2023-12-18 13:38:02.045712] ** Routing: 5043.9 seconds
+[2023-12-18 13:38:02.125222] ** Verification: 0.0 seconds
+[2023-12-18 13:38:02.127874] ** SRAM creation: 5293.9 seconds
+[2023-12-18 13:38:02.129558] SP: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.sp
+[2023-12-18 13:38:02.470830] ** Spice writing: 0.3 seconds
+[2023-12-18 13:38:02.473288] DELAY: Writing stimulus...
+[2023-12-18 13:38:03.846097] ** DELAY: 1.4 seconds
+[2023-12-18 13:38:04.094590] GDS: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.gds
+[2023-12-18 13:38:05.039905] ** GDS: 0.9 seconds
+[2023-12-18 13:38:05.046149] LEF: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.lef
+[2023-12-18 13:38:05.073239] ** LEF: 0.0 seconds
+[2023-12-18 13:38:05.075259] LVS: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.lvs.sp
+[2023-12-18 13:38:05.310954] ** LVS writing: 0.2 seconds
+[2023-12-18 13:38:05.314094] LIB: Characterizing... 
+[2023-12-18 13:38:16.526998] ** Characterization: 11.2 seconds
+[2023-12-18 13:38:16.534778] Config: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.py
+[2023-12-18 13:38:16.537116] ** Config: 0.0 seconds
+[2023-12-18 13:38:16.542711] Datasheet: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.html
+[2023-12-18 13:38:16.552520] ** Datasheet: 0.0 seconds
+[2023-12-18 13:38:16.554405] Verilog: Writing to /home/v62893/mydata/OpenRAM/OpenRAM/sram_output_sky130/sram_32b_256_1rw_sky130.v
+[2023-12-18 13:38:16.561859] ** Verilog: 0.0 seconds
+[2023-12-18 13:38:16.567969] ** End: 5308.5 seconds
